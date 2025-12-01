@@ -5,7 +5,7 @@ on: push
 jobs:
   super-lint:
     name: lint code base 
-    runs-on: macOS
+    runs-on: macOS-15
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
